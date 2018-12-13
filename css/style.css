@@ -1,0 +1,181 @@
+body{
+    background-color: #F8F3ED;
+}
+.bg-light
+{
+    background-color: #F8F3ED !important;
+}
+.btn-primary {
+    background-color: #9C7E69!important;
+    border-color: #9C7E69!important;
+
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    color: #9C7E69!important;
+    background-color: #9C7E69!important;
+    border-color: #9C7E69!important;
+}
+a{
+   <!-- color :#9C7E69!important;-->
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(156, 126, 105, .9)!important;
+}
+.modal-content
+{
+    background-color: #F8F3ED!important;
+
+}
+#mainNav .navbar-brand {
+    text-shadow: black 0.1em 0.1em 0.2em;
+
+    color: #ffffff!important;
+}
+#portfolio .portfolio-item .portfolio-caption {
+    background-color: #9C7E69!important;
+
+}
+h4, h2{
+    color: #3A2E29;
+}
+.text-muted {
+    color: #F8F3ED!important;
+}
+.sup{
+    color:#9C7E69!important;
+}
+#services
+{
+    background-color: #E8D5C3!important;
+
+}
+@media (min-width: 1200px){
+    .timeline > li.timeline-inverted > .timeline-panel {
+
+        padding: 0 20px 20px 20px!important;
+    }}
+@media (min-width: 1200px){
+    .timeline > li .timeline-panel{
+        padding: 0 20px 20px 20px!important;
+    }}
+
+.timeline:before {
+    background-color :#9C7E69!important;
+}
+.timeline > li .timeline-image{
+    border: 7px solid #9C7E69 !important;
+    background-color: #9C7E69!important;
+
+}
+.Just
+{
+
+}
+
+.ProTitle
+{
+    color: #9C7E69!important;
+}
+
+.text-primary {
+    color: #9C7E69 !important;
+}
+::selection {
+    color: #fff!important;
+    background: #3A2E29 !important;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #9C7E69 !important;
+    border-color: #9C7E69 !important;
+    color : #3a2e29 !important;
+}
+
+#mainNav .navbar-toggler {
+    background-color: #9C7E69!important;
+}
+a:hover a:focus a:active{
+    color : white!important;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color :white!important;
+    text-shadow: 0 0 0.2em #ffffff, 0 0 0.2em #ffffff,
+    0 0 0.2em #ffffff
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: #fff!important;
+}
+.intro-text
+{
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.intro-text a
+{
+    color : white!important;
+    text-shadow: black 0em 0em 0em;
+    box-shadow:  black 0.1em 0.1em 0.2em;
+}
+.navbar-brand .js-scroll-trigger
+{
+    text-shadow: black 0.1em 0.1em 0.2em
+
+}
+@media (min-width: 768px){
+section {
+    padding: 50px 0!important;
+}}
+
+.SubServ{
+    color: #9C7E69;
+    text-align: justify;
+}
+i>p{
+    text-align: left;
+
+}
+.CheckCircle
+{
+    color: #3a2e29;
+    text-align: left;
+
+}
+.leCercle{
+    padding: 5px;
+
+}
+.leTexte
+{
+    padding-left: 35px;
+}
+.Interet
+{
+    padding-top :100px;
+    width: 100%;
+}
+.unInteret
+{
+    padding-top :50px;
+
+}
+.txtInteret
+{
+    padding-left: 50px;
+    display: inline-block;
+    vertical-align : middle;
+    text-align: left;
+}
+.unInteret
+{
+    display: block;
+}
+p{
+    font-size:1.15rem;
+}
+.SousTitreCI
+{
+    font-size:1.75rem;
+}
+a{
+    color : #9C7E69!important;
+}
