@@ -19,7 +19,7 @@ a{
    <!-- color :#9C7E69!important;-->
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-    background: rgba(156, 126, 105, .9)!important;
+    background: rgba(0, 0, 0, .7)!important;
 }
 .modal-content
 {
@@ -52,11 +52,12 @@ h4, h2{
 @media (min-width: 1200px){
     .timeline > li.timeline-inverted > .timeline-panel {
 
-        padding: 0 20px 20px 20px!important;
-    }}
+        padding: 40px 20px 20px 20px!important;
+    }
+}
 @media (min-width: 1200px){
     .timeline > li .timeline-panel{
-        padding: 0 20px 20px 20px!important;
+        padding: 40px 20px 20px 20px!important;
     }}
 
 .timeline:before {
@@ -164,6 +165,8 @@ i>p{
     display: inline-block;
     vertical-align : middle;
     text-align: left;
+    max-width: 530px;
+
 }
 .unInteret
 {
@@ -179,3 +182,27 @@ p{
 a{
     color : #9C7E69!important;
 }
+.lesIcons
+{
+    color: white!important;
+}
+.fondIcon:hover, .fondIcon:focus,.fondIcon:active
+{
+    color: white!important;
+}
+ul.social-buttons li a:hover
+{
+    color: white;
+}
+.timeline-heading
+{
+    text-align: center;
+    vertical-align: center;
+}
+section#contact {
+    background-image: url(../img/header-bg.jpg)!important;
+}
+@media (min-width: 1200px){
+     .timeline-panel {
+        padding: 40px 20px 20px 20px!important!important;
+    }}

@@ -42,7 +42,7 @@ $return = SQL::connect();
 
 if ($return === true) {
 
-    $store_query = "SELECT * FROM projets";
+    $store_query = "SELECT * FROM projets ORDER BY id";
 
     $results = SQL::query($store_query);
     $results = SQL::fetchAllAssoc($results);
