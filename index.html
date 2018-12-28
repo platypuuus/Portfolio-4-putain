@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -30,7 +30,7 @@
 <body id="page-top">
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="mainNav">
     <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Baille Clément</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -61,14 +61,14 @@
 <!-- Header -->
 <header class="masthead">
     <div class="container">
+        <div class="col-md-7">
         <div class="intro-text">
             <div class="intro-lead-in">Bienvenue sur mon portfolio!</div>
             <div class="intro-heading text-uppercase">C'est une joie de vous rencontrer</div>
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Mes Projets</a>
-        </div>
+        </div></div><div class="col-md-5"></div>
     </div>
 </header>
-
 
 
 <!-- Portfolio Grid -->
@@ -77,7 +77,7 @@
         <div class="row">
             <div class="col-lg-12 text-center ">
                 <h2 class="section-heading text-uppercase sup">Portfolio</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
             </div>
         </div>
         <div class="row" id="wrap">
@@ -87,28 +87,39 @@
 
 <!-- Services -->
 <section id="services">
-    <div class="container">
+    <div class="container-flex">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase ">Compétences</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+
             </div>
         </div>
-        <div class="row text-center">
+        <div class="row text-center lesLignes">
             <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-code fa-stack-1x fa-inverse"></i>
             </span>
                 <h4 class="service-heading">Developpement</h4>
-                <p class="SubServ"><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle CheckCircle "></i><i class="fas fa-circle leCercle CheckCircle "></i>
-                <span class ="leTexte">C#</span></p>
-                <p class="SubServ"><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle CheckCircle "></i><i class="fas fa-circle leCercle CheckCircle "></i>
-                    <span class ="leTexte">HTML/CSS</span></p>
-                <p class="SubServ"><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle CheckCircle "></i><i class="fas fa-circle leCercle CheckCircle "></i><i class="fas fa-circle leCercle "></i>
-                    <span class ="leTexte">PHP</span></p>
-                <p class="SubServ"><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle CheckCircle "></i><i class="fas fa-circle leCercle "></i><i class="fas fa-circle leCercle "></i>
-                <span class ="leTexte">JS</span></p>
+
+                <p class="SubServ">
+                     <span class="progress">
+                <span class="progress-bar w-98" role="progressbar" style="width: 98%" aria-valuenow="98"
+                      aria-valuemin="0" aria-valuemax="100"></span>
+            </span>
+                    <span class="leTexte">C#</span></p>
+                <p class="SubServ"><span class="progress">
+                <span class="progress-bar w-95" role="progressbar" style="width: 95%" aria-valuenow="95"
+                      aria-valuemin="0" aria-valuemax="100"></span>
+            </span><span class="leTexte">HTML/CSS</span></p>
+                <p class="SubServ"><span class="progress">
+                <span class="progress-bar w-75" role="progressbar" style="width: 75%" aria-valuenow="75"
+                      aria-valuemin="0" aria-valuemax="100"></span>
+            </span><span class="leTexte">PHP</span></p>
+                <p class="SubServ"><span class="progress">
+                <span class="progress-bar w-45" role="progressbar" style="width: 45%" aria-valuenow="45"
+                      aria-valuemin="0" aria-valuemax="100"></span>
+            </span><span class="leTexte">JS</span></p>
             </div>
             <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -116,12 +127,18 @@
               <i class="fas fa-pencil-alt fa-stack-1x fa-inverse"></i>
             </span>
                 <h4 class="service-heading">Dessin</h4>
-                <p class="SubServ"><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle CheckCircle "></i><i class="fas fa-circle leCercle "></i>
-                    <span class ="leTexte">Digital Painting</span></p>
-                <p class="SubServ"><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle CheckCircle "></i><i class="fas fa-circle leCercle "></i>
-                    <span class ="leTexte">Dessin traditionnel</span></p>
-                <p class="SubServ"><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle "></i><i class="fas fa-circle leCercle "></i><i class="fas fa-circle leCercle "></i>
-                    <span class ="leTexte">Aquarelle</span></p>
+                <p class="SubServ"><span class="progress">
+                <span class="progress-bar w-80" role="progressbar" style="width: 80%" aria-valuenow="80"
+                      aria-valuemin="0" aria-valuemax="100"></span>
+            </span><span class="leTexte">Digital Painting</span></p>
+                <p class="SubServ"><span class="progress">
+                <span class="progress-bar w-75" role="progressbar" style="width: 75%" aria-valuenow="75"
+                      aria-valuemin="0" aria-valuemax="100"></span>
+            </span><span class="leTexte">Dessin traditionnel</span></p>
+                <p class="SubServ"><span class="progress">
+                <span class="progress-bar w-20" role="progressbar" style="width: 20%" aria-valuenow="20"
+                      aria-valuemin="0" aria-valuemax="100"></span>
+            </span><span class="leTexte">Aquarelle</span></p>
             </div>
             <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -129,14 +146,33 @@
               <i class="fas fa-gamepad fa-stack-1x fa-inverse"></i>
             </span>
                 <h4 class="service-heading">Game Design</h4>
-                <p class="SubServ"><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle CheckCircle "></i><i class="fas fa-circle leCercle  "></i>
-                    <span class ="leTexte">RGD</span></p>
-                <p class="SubServ"><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle  "></i><i class="fas fa-circle leCercle  "></i>
-                    <span class ="leTexte">GDD</span></p>
-                <p class="SubServ"><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle CheckCircle "></i><i class="fas fa-circle leCercle CheckCircle "></i><i class="fas fa-circle leCercle "></i>
-                    <span class ="leTexte">Methode Agiles</span></p>
-                <p class="SubServ"><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle CheckCircle "></i><i class="fas fa-circle leCercle CheckCircle"></i><i class="fas fa-circle leCercle "></i>
-                    <span class ="leTexte">Schell's Lens</span></p>
+                <p class="SubServ"><span class="progress">
+                <span class="progress-bar w-75" role="progressbar" style="width: 75%" aria-valuenow="75"
+                      aria-valuemin="0" aria-valuemax="100"></span>
+            </span><span class="leTexte">RGD</span></p>
+                <p class="SubServ"><span class="progress">
+                <span class="progress-bar w-45" role="progressbar" style="width: 45%" aria-valuenow="45"
+                      aria-valuemin="0" aria-valuemax="100"></span>
+            </span><span class="leTexte">GDD</span></p>
+                <p class="SubServ"><span class="progress">
+                <span class="progress-bar w-75" role="progressbar" style="width: 75%" aria-valuenow="75"
+                      aria-valuemin="0" aria-valuemax="100"></span>
+            </span><span class="leTexte">Methode Agiles</span></p>
+                <p class="SubServ"><span class="progress">
+                <span class="progress-bar w-70" role="progressbar" style="width: 70%" aria-valuenow="70"
+                      aria-valuemin="0" aria-valuemax="100"></span>
+            </span><span class="leTexte">Schell's Lens</span></p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 align-content-center lesIcones">
+                <a title="Photoshop" href="https://www.adobe.com/fr/products/photoshop.html" onclick="window.open(this.href); return false;"><img src="img/ico/PS.png"></a>
+                <a title="Clip Studio Paint" href="https://www.clipstudio.net/fr" onclick="window.open(this.href); return false;"><img src="img/ico/CSP.png"></a>
+                <a title="Unity" href="https://unity3d.com/fr" onclick="window.open(this.href); return false;"><img src="img/ico/UNI.png"></a>
+                <a title="Visual studio" href="https://visualstudio.microsoft.com/fr/" onclick="window.open(this.href); return false;"><img src="img/ico/VS.png"></a>
+                <a title="Php Storm" href="https://www.jetbrains.com/phpstorm/" onclick="window.open(this.href); return false;"><img src="img/ico/PHPS.png"></a>
+                <a title="WAMP" href="http://www.wampserver.com/" onclick="window.open(this.href); return false;"><img src="img/ico/WAMP.png"></a>
 
             </div>
         </div>
@@ -149,101 +185,110 @@
         <div class="row">
         </div>
     </div>
-        <div class="row">
-            <div class="col-lg-6">
-                <div class=" text-center ">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class=" text-center ">
 
                 <h2 class="section-heading text-uppercase sup">Parcours</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3></div>
+                </div>
 
-                <ul class="timeline">
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+            <ul class="timeline">
+                <li class="timeline-inverted">
+                    <div class="timeline-image">
+                        <img class="rounded-circle img-fluid" src="img/about/LP.png">
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <span class="SousTitreCI">Depuis 2018<br>Licence Pro Métiers<br> du jeu vidéo</span>
                         </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Depuis 2018</h4>
-                                <h4 class="subheading">Licence Pro Metier du jeu vidéo</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted"></p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2016-2018</h4>
-                                <h4 class="subheading">BTS Informatique (SIO)</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="text-muted"></p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Janvier 2018</h4>
-                                <h4 class="subheading">Stage Nova-Alexandrie</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="Just"><!--Developpement du premier prototype d’un site web interactif et culturel ainsi que d’un site vitrine presentant le projet--></p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>Mai 2017</h4>
-                                <h4 class="subheading">Stage Eco-Castor</h4>
-                            </div>
-                            <div class="timeline-body">
-                                <p class="Just"><!--Création d’un site présentant l’activité de conseil en écologie et en économie d’un auto-entrepreneur.--></p>
-                            </div>
-                        </div>
-                    </li>
-
-
-                </ul>
-            </div>
-            <div class="col-lg-6">
-                <div class=" text-center ">
-
-                    <h2 class="section-heading text-uppercase sup">Centre d'interet</h2>
-                    <div class="row Interet">
-                        <div class="unInteret">
-                            <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt=""> <p class="txtInteret"><span class="SousTitreCI">Jeux Vidéos</span><br>Jeux multijoueur (Overwatch, Payday 2, Minecraft...)<br>Action RPG (Dark Souls, Monster Hunter)<br>Et plein d'autres (Dishonored, plein de jeux indé...)</p>
-                        </div>
-                        <div class="unInteret">
-                            <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt=""><p class="txtInteret"><span class="SousTitreCI">Dessin</span><br>Etudes de photo en digital painting<br>Dessin d'imagination à l'encre, l'aquarelle, ou en digital<br>Dessin d'observation</p>
-                        </div>
-                        <div class="unInteret">
-                            <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt=""><p class="txtInteret"><span class="SousTitreCI">Ecriture</span><br>Histoires fantastique avec un aspect assez sombre<br>Histoire dans un univers hybride entre science-fiction et fantasy<br>Très peu de texte complets</p>
-                        </div>
-                        <div class="unInteret">
-                            <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt=""><p class="txtInteret"><span class="SousTitreCI">Game Jam</span><br><a href="https://itch.io/jam/perpignan-game-jam/entries">Game Jam de Perpignan de 2018</a><br>Epicness Game Jam (organisé à Paul Valery)<br>Néon Game Jam (organisés à E-ArtSup)</p>
-                        </div>
-
-
+                        <div class="timeline-body">
+                            <p class="Just">
+                               Formation polyvalente dans le domaine du jeu vidéo</p>
                         </div>
                     </div>
+                </li>
+                <li>
+                    <div class="timeline-image">
+                        <img class="rounded-circle img-fluid" src="img/about/CD.png" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <span class="SousTitreCI">2016-2018<br>BTS Informatique (SIO)</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="Just">
+                                Formation en developpement Logiciel et Web</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image">
+                        <img class="rounded-circle img-fluid" src="img/about/NA.png" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <span class="SousTitreCI">Janvier 2018<br>Stage Nova-Alexandrie</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="Just">
+                                Developpement du premier prototype d’un site web culturel ainsi que d’un <a href="http://www.alexandrie.info" onclick="window.open(this.href); return false;">vitrine presentant le projet</a></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-image">
+                        <img class="rounded-circle img-fluid" src="img/about/EC.png" alt="">
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <span class="SousTitreCI">Mai 2017<br>Stage Eco-Castor</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="Just">
+                                Création d’un site présentant l’activité de conseil en écologie et en économie d’un auto-entrepreneur.</p>
+                        </div>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+        <div class="col-lg-6">
+            <div class=" text-center ">
+
+                <h2 class="section-heading text-uppercase sup">Centre d'interet</h2>
+                <div class="row Interet">
+                    <div class="unInteret">
+                        <img class="rounded-circle img-fluid" src="img/about/JV.png" alt="">
+                        <p class="txtInteret"><span class="SousTitreCI">Jeux Vidéos</span><br>Jeux multijoueur
+                            (Overwatch, Payday 2, Minecraft...)<br>Action RPG (Dark Souls, Monster Hunter)<br>Et plein
+                            d'autres (Dishonored, plein de jeux indé...)</p>
+                    </div>
+                    <div class="unInteret">
+                        <img class="rounded-circle img-fluid" src="img/about/DS.png" alt="">
+                        <p class="txtInteret"><span class="SousTitreCI">Dessin</span><br>Etudes de photo en digital
+                            painting<br>Dessin d'imagination à l'encre, l'aquarelle, ou en digital<br>Dessin
+                            d'observation</p>
+                    </div>
+                    <div class="unInteret">
+                        <img class="rounded-circle img-fluid" src="img/about/WR.png" alt="">
+                        <p class="txtInteret"><span class="SousTitreCI">Ecriture</span><br>Histoires fantastiques<br>Histoire dans un univers hybride entre science-fiction et fantasy</p>
+                    </div>
+                    <div class="unInteret">
+                        <img class="rounded-circle img-fluid" src="img/about/JAM.png" alt="">
+                        <p class="txtInteret"><span class="SousTitreCI">Game Jam</span><br><a
+                                href="https://itch.io/jam/perpignan-game-jam/entries">Game Jam de Perpignan de
+                            2018</a><br>Epicness Game Jam (organisé à Paul Valery)<br>Néon Game Jam (organisés à
+                            E-ArtSup)</p>
+                    </div>
+
+
+                </div>
             </div>
         </div>
+    </div>
 
 </section>
-
-
 
 
 <!-- Contact -->
@@ -251,8 +296,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Contactez-moi</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h2 class="section-heading text-uppercase ConTxt">Contactez-moi</h2>
             </div>
         </div>
         <div class="row">
@@ -261,28 +305,25 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *"
-                                       required="required" data-validation-required-message="Please enter your name.">
+                                <input class="form-control" id="name" type="text" placeholder="Votre nom"
+                                       required="required" data-validation-required-message="Veuillez entrer un nom s'il vous plait.">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *"
+                                <input class="form-control" id="email" type="email" placeholder="Votre e-mail"
                                        required="required"
-                                       data-validation-required-message="Please enter your email address.">
+                                       data-validation-required-message="Veuillez entrer une adresse mail s'il vous plait.">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
-                                       required="required"
-                                       data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
+
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <textarea class="form-control" id="message" placeholder="Your Message *"
+                                <textarea class="form-control" id="message" placeholder="Votre message"
                                           required="required"
-                                          data-validation-required-message="Please enter a message."></textarea>
+                                          data-validation-required-message="Veuillez entrer un message s'il vous plait."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -290,7 +331,7 @@
                         <div class="col-lg-12 text-center">
                             <div id="success"></div>
                             <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">
-                                Send Message
+                                Envoyer !
                             </button>
                         </div>
                     </div>
@@ -305,28 +346,25 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                
+
             </div>
             <div class="col-md-4">
                 <ul class="list-inline social-buttons">
                     <li class="list-inline-item fondIcon">
-                        <a href="#" class="lesIcons">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item fondIcon">
-                        <a href="#" class="lesIcons">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item fondIcon">
-                        <a href="#" class="lesIcons">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item fondIcon">
-                        <a href="#" class="lesIcons">
+                        <a title="Instagram" href="https://www.instagram.com/sleepyplatypuus/"  onclick="window.open(this.href); return false;" class="lesIcons">
                             <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item fondIcon">
+                    <a title="Linkedin" href="https://www.linkedin.com/in/cl%C3%A9ment-baille-9ab994172/"  onclick="window.open(this.href); return false;" class="lesIcons">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+
+
+                    <li class="list-inline-item fondIcon">
+                        <a title="Twitter" href="https://twitter.com/Ornispace?lang=fr"  onclick="window.open(this.href); return false;" class="lesIcons">
+                            <i class="fab fa-twitter"></i>
                         </a>
                     </li>
                 </ul>
@@ -361,6 +399,32 @@
 
     var monCul;
 
+    /*$(document).ready($("#contactForm").submit(function(){
+        var mail = document.getElementById("email").value;
+        var nom = document.getElementById("name").value;
+        var msg = document.getElementById("message").value;
+        $.ajax({
+            url : 'mail.php',
+            type : 'POST',
+            data : 'mail='+mail+'&name='+nom+'&message='+msg,
+            dataType : 'html',
+            success : function(code_html, statut){
+                var retour = code_html.indexOf("false");
+                if (retour != -1){
+                    $("#error").attr('style','');
+
+                }
+                else{
+                    $("#success").attr('style','');
+                    document.getElementById("name").value = "";
+                    document.getElementById("email").value = "";
+                    document.getElementById("message").value = "";}
+            },
+            error : function(code_html, statut,erreur){$("#error").attr('style','');}
+
+        });
+        return false;
+    }));*/
 
     $(document).ready(function () {
         monCul = $.ajax({
@@ -375,20 +439,18 @@
             for (var i = 0; i < fesse.length; i++) {
 
                 document.getElementById("wrap").innerHTML += '<div class="col-md-4 col-sm-6 portfolio-item"> <a class="portfolio-link" data-toggle="modal" href="#portfolioModal' + i + '"> <div class="portfolio-hover"> <div class="portfolio-hover-content"> <i class="fas fa-plus fa-3x"></i> </div> </div> <img class="img-fluid" src="img/portfolio/' + fesse[i].NomImage + 'V.png" alt=""> </a> <div class="portfolio-caption"> <h4>' + fesse[i].Nom + '</h4> <p class="text-muted">' + fesse[i].Type + '</p> </div> </div>';
-                document.getElementById("lesModals").innerHTML += '<div class="portfolio-modal modal fade" id="portfolioModal' + i + '" tabindex="-1" role="dialog" aria-hidden="true"> <div class="modal-dialog"> <div class="modal-content"> <div class="close-modal" data-dismiss="modal"> <div class="lr"> <div class="rl"></div> </div> </div> <div class="container"> <div class="row"> <div class="col-lg-10 mx-auto"> <div class="modal-body"> <h2 class="ProTitle text-uppercase">' + fesse[i].Nom + '</h2> <p class="item-intro ">' + fesse[i].Type + '</p> <div id="leSlider'+i+'"></div> <p>' + fesse[i].Description + '</p> <ul class="list-inline"> <li>' + fesse[i].Date + ' </ul> <button class="btn btn-primary" data-dismiss="modal" type="button"> <i class="fas fa-times"></i> Close Project </button> </div> </div> </div> </div> </div> </div> </div> '
-                document.getElementById("leSlider"+i).innerHTML += '<div id="carouselExampleControls" class="carousel slide" data-ride="carousel"> <div class="carousel-inner" id="ImgSlider'+i+'"> </div> <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>';
+                document.getElementById("lesModals").innerHTML += '<div class="portfolio-modal modal fade" id="portfolioModal' + i + '" tabindex="-1" role="dialog" aria-hidden="true"> <div class="modal-dialog"> <div class="modal-content"> <div class="close-modal" data-dismiss="modal"> <div class="lr"> <div class="rl"></div> </div> </div> <div class="container"> <div class="row"> <div class="col-lg-10 mx-auto"> <div class="modal-body"> <h2 class="ProTitle text-uppercase">' + fesse[i].Nom + '</h2> <p class="item-intro ">' + fesse[i].Type + '</p> <div id="leSlider' + i + '"></div> <p>' + fesse[i].Description + '</p> <ul class="list-inline"> <li>' + fesse[i].Date + ' </ul> <button class="btn btn-primary" data-dismiss="modal" type="button"> <i class="fas fa-times"></i> Close Project </button> </div> </div> </div> </div> </div> </div> </div> '
+                document.getElementById("leSlider" + i).innerHTML += '<div id="carouselExampleControls" class="carousel slide" data-ride="carousel"> <div class="carousel-inner" id="ImgSlider' + i + '"> </div> <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>';
                 for (var x = 0; x < fesse[i].NombreImage; x++) {
-                    var actif ='';
-                    if (x==0)
-                    {
+                    var actif = '';
+                    if (x == 0) {
                         actif = ' active';
                     }
-                    else
-                    {
+                    else {
                         actif = '';
 
                     }
-                    document.getElementById("ImgSlider"+i).innerHTML +='<div class="carousel-item'+actif+'"> <img class="d-block w-100" src="img/portfolio/'+fesse[i].NomImage+x+'.png" alt="Second slide"> </div>';
+                    document.getElementById("ImgSlider" + i).innerHTML += '<div class="carousel-item' + actif + '"> <img class="d-block w-100" src="img/portfolio/' + fesse[i].NomImage + x + '.png" alt="Second slide"> </div>';
                 }
             }
 
