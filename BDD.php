@@ -8,8 +8,8 @@ class SQL
     public static function connect()
     {
         try {
-                self::$db_connection = @new PDO('mysql:host=localhost;dbname=projets;charset=UTF8','root','');
-            //       self::$db_connection = @new PDO('mysql:host=localhost;dbname=u518217031_proje;charset=UTF8','u518217031_platy','vtffdtq');
+               self::$db_connection = @new PDO('mysql:host=localhost;dbname=projets;charset=UTF8','root','');
+            //     self::$db_connection = @new PDO('mysql:host=localhost;dbname=u518217031_proje;charset=UTF8','u518217031_platy','vtffdtq');
 
             return true; //OK
         } catch (PDOException $e) {
